@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [],
@@ -12,7 +13,8 @@ import { StoreModule } from '@ngrx/store';
     BrowserAnimationsModule,
     HttpClientModule,
     EffectsModule,
-    StoreModule
+    StoreModule,
+    MatToolbarModule
   ]
 })
 export class CoreModule { }
